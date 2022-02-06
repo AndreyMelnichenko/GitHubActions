@@ -1,0 +1,2 @@
+# GitTrainer
+Test Git commands
