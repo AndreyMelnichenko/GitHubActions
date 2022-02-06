@@ -1,0 +1,23 @@
+{
+  "name": "gittrainer",
+  "version": "1.0.0",
+  "description": "Test Git commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyMelnichenko/GitTrainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyMelnichenko/GitTrainer/issues"
+  },
+  "homepage": "https://github.com/AndreyMelnichenko/GitTrainer#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.18.1"
+  }
+}

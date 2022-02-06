@@ -1,0 +1,38 @@
+/dist
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+test-results
+test-data
+results.xml
+allure*
+html-report*
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Private data
+creds.json
+*.cookies.json
+
+# Test Markdown text
+README.html
+notes
+test-results/
+playwright-report/
