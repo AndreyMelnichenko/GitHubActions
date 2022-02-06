@@ -32,7 +32,7 @@ test.describe.parallel('Persistence', () => {
   });
 });
 
-test.describe.parallel('Routing', () => {
+test.describe.parallel('Routing main', () => {
   test.beforeEach(async ({ page }) => {
     await createDefaultTodos(page);
     // make sure the app had a chance to save updated todos in storage
